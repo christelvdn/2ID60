@@ -53,7 +53,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 });
 $(document).ready(function () {
     $('.button').click(function () {
-        $(this).parent().find('img.test').toggle('slow');
+        $(this).parent().find('img.ontdek').toggle('slow');
     });
 });
 });
