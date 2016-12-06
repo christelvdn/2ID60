@@ -1,0 +1,75 @@
+/* Basic*/
+
+.home img{
+  max-height: 300px;
+}
+.janluyken img, .bewoners img, .standaard{
+  max-height:400px;
+  width: 300px;
+}
+
+.header{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header img{
+    min-height: 100%;
+    min-width: 100%;
+    margin-top: -300px;
+  }
+
+.row{
+  border: 1px solid #000;
+  margin: 20px;
+  padding: 25px;
+}
+
+.center{
+  text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    color:#555;
+    margin-top:20px;
+    }
+
+/* CAROUSEL */
+
+  .carousel-inner{
+    max-height:750px;
+  }
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  /*Buttons ontdekt het huis zelf */
+  .button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.ontdek{
+  max-height:600px;
+  width: 400px;
+}
