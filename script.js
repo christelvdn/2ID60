@@ -51,9 +51,5 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
-$(document).ready(function () {
-    $('.button').click(function () {
-        $(this).parent().find('img.ontdek').toggle('slow');
-    });
-});
+
 });
