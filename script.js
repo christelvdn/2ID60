@@ -52,6 +52,62 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 
+/*Ontdek het zelf */
 function hideImage(z){
-	$()
+	$("#idEntree").hide();
+	$("#idBenedenverdieping").hide();
+	$("#idBadkamer1").hide();
+	$("#idTrapgat").hide();
+	$("#idBadkamer2").hide();
+	$("#idClub").hide();
+	$("#idKeuken1").hide();
+	$("#idEetkamer").hide();
+	$("#idKeuken2").hide();
+	$("#idDak").hide();
+	$("#idTuin").hide();
+	z.fadeIn(1250).removeClass('hidden');
 }
+
+$("#entree").on("click", function(){
+    hideAllBut($("#idEntree");
+});
+
+$("#benedenverdieping").on("click", function(){
+    hideAllBut($("#idBenedenverdieping");
+});
+
+$("#badkamer1").on("click", function(){
+    hideAllBut($("#idBadkamer1");
+});
+
+$("#trapgat").on("click", function(){
+    hideAllBut($("#idTrapgat");
+});
+
+$("#badkamer2").on("click", function(){
+    hideAllBut($("#idBadkamer2");
+});
+
+$("#woonkamer").on("click", function(){
+    hideAllBut($("#idWoonkamer");
+});
+
+$("#keuken1").on("click", function(){
+    hideAllBut($("#idKeuken1");
+});
+
+$("#eetkamer").on("click", function(){
+    hideAllBut($("#idEetkamer");
+});
+
+$("#keuken2").on("click", function(){
+    hideAllBut($("#idKeuken2");
+});
+
+$("#dak").on("click", function(){
+    hideAllBut($("#idDak");
+});
+
+$("#tuin").on("click", function(){
+    hideAllBut($("#idTuin");
+});
