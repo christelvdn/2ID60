@@ -1,7 +1,7 @@
 /* Click functions of the navigation bar  to show the proper content */
 $(document).ready(function(){
 	hideAllBut($(".home"), $(".carousel"));
-});
+
 
 $("#idHome").on("click", function(){
     hideAllBut($(".home"), $(".carousel"));
@@ -52,3 +52,4 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 
+});
